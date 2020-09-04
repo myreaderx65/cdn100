@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>欢迎光临</title>
+<script type="text/javascript" src="static/www2-main.js"></script>
+</head>
+<!--
+<script type="text/javascript">
+	var mainurl = unescape(queryString('mainurl','/mainpage.html'));
+    if (!isNewSMTHDomain(mainurl)) { mainurl = '/mainpage.html'; }
+	var ffleft = isLogin() ? 'bbsleft.php' : 'bbsguestleft.html';
+	var ffmsg = isLogin() ? 'bbsgetmsg.php' : 'images/img.gif';
+	var fffoot = isLogin() ? 'bbsfoot.php' : 'bbsguestfoot.html';
+        var escstr = mainurl.replace(/[%\'"<?^>*>\(\)=]/g,'');
+	document.write(''+
+'<frameset name=mainframe id=mainframe frameborder=0 border=0 cols="167,11,*">'+
+	'<frame name=menu noresize="true" marginwidth=0 marginheight=0 src="'+ffleft+'">'+
+	'<frame scrolling=no noresize="true" name=toogle marginwidth=0 marginheight=0 src="static/wtoogle.html">'+
+	'<frameset name="viewfrm" id="viewfrm" rows="0,*,20">'+
+		'<frame scrolling=no noresize="true" marginwidth=4 marginheight="0" name="fmsg" src="'+ffmsg+'">'+
+		'<frame marginwidth=0 marginheight=0 name="f3" src="'+escstr+'">'+
+		'<frame scrolling=no noresize="true" marginwidth=4 marginheight="1" name="f4" src="'+fffoot+'">'+
+	'</frameset>'+
+'</frameset>');
+</script>
+//-->
+<body>
+<script language="JavaScript1.2" type="text/javascript">
+function delayURL(url, time) {
+setTimeout("top.location.href='" + url + "'", time);
+}
+</script>
+水木社区www2版本不再使用， 5 秒钟之后自动跳转到nForum版，如果不跳转，请点击下面链接<br />
+<a href="https://www.newsmth.net/nForum/#!mainpage">水木社区nForum版</a>
+<script type="text/javascript">
+delayURL("https://www.newsmth.net/nForum/#!mainpage", 5000);
+</script>
+</body>
+</html>
